@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Находки
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы уже нашли</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Nike x Off-White Jordan 1",
+              category: "Кроссовки · снято с продажи · найдено за 2 дня",
+              year: "Найдено",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Maison Margiela Tabi",
+              category: "Винтажная пара по артикулу · 4 источника",
+              year: "Найдено",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Vintage Raf Simons Bomber",
+              category: "Архивная коллекция · поиск по фото",
+              year: "Найдено",
               direction: "left",
             },
           ].map((project, i) => (
