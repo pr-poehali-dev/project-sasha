@@ -24,8 +24,8 @@ export function WorkSection() {
           {[
             {
               number: "01",
-              title: "Nike x Off-White Jordan 1",
-              category: "Кроссовки · снято с продажи · найдено за 2 дня",
+              title: "Stone Island Pure Metal Shell",
+              category: "Куртка · снято с продажи · найдено за 2 дня",
               year: "Найдено",
               direction: "left",
             },
